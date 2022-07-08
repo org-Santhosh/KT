@@ -7,6 +7,4 @@ jobs:
     with:
       username: userr
       username2: user1
-    secrets:  
-      password: ${{ secrets.password }}
-      key: ${{secrets.token }}
+    secrets:  inherit
