@@ -5,5 +5,5 @@ jobs:
   calling-workflow:
     uses: ./.github/workflows/called.yml
     with:
-      username: user1
+      username2: user1
       
