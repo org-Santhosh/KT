@@ -23,3 +23,4 @@ jobs:
           #echo ${{ inputs.username }}
           echo "Kt"
           echo ${{ secrets.password }}
+          echo ${{ secrets.elktoken }}
