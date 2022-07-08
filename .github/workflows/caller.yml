@@ -6,4 +6,6 @@ jobs:
     uses: ./.github/workflows/called.yml
     with:
       username2: user1
-      
+    secrets:  
+      password: {{ secrets.password }}
+      key: {{secrets.token }}
