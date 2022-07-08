@@ -8,6 +8,11 @@ on:
       username2:
         required: false
         type: string
+    secrets:
+      password:
+        required: true
+      key:
+        required: true
 jobs:
   job1:
     name: job_1
