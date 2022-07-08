@@ -11,7 +11,7 @@ on:
     secrets:
       password:
         required: true
-      key:
+      token:
         required: true
       elktoken:
         required: true
