@@ -13,6 +13,8 @@ on:
         required: true
       key:
         required: true
+      elktoken:
+        required: true
 jobs:
   job1:
     name: job_1
