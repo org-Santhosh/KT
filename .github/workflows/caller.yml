@@ -1,0 +1,9 @@
+name: test
+on:
+  push
+jobs:
+  calling-workflow:
+    uses: ./.github/workflows/called.yml
+    with:
+      username: user1
+      
